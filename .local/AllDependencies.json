@@ -19965,7 +19965,6 @@
   "projectFileDependencyGroups": {
     "": [],
     "net8.0-windows7.0": [
-      "ACME_Login_UiPath.with.Jai >= 1.0.4 <= 1.0.4",
       "UiPath.Excel.Activities >= 3.0.1 <= 3.0.1",
       "UiPath.System.Activities >= 25.4.2 <= 25.4.2",
       "UiPath.Testing.Activities >= 25.4.0 <= 25.4.0",
@@ -19973,15 +19972,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\playc\\.nuget\\packages\\": {}
+    "C:\\Users\\nome.do.usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "REF-GenerateYearlyReports-Performer",
       "projectName": "REF-GenerateYearlyReports-Performer",
-      "projectPath": "C:\\Users\\playc\\Documents\\Generate-Yearly-Reports-Performer\\Performer\\Generate-Yearly-Reports-Performer\\.local",
-      "packagesPath": "C:\\Users\\playc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\playc\\Documents\\Generate-Yearly-Reports-Performer\\Performer\\Generate-Yearly-Reports-Performer\\.local",
+      "projectPath": "C:\\Users\\nome.do.usuario\\Documents\\Generate Yearly Report\\Generate-Yearly-Reports-Performer\\.local",
+      "packagesPath": "C:\\Users\\nome.do.usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nome.do.usuario\\Documents\\Generate Yearly Report\\Generate-Yearly-Reports-Performer\\.local",
       "UsingMicrosoftNETSdk": false,
       "restoreAuditProperties": {
         "enableAudit": "False"
@@ -19990,11 +19989,6 @@
     "frameworks": {
       "net8.0-windows7.0": {
         "dependencies": {
-          "ACME_Login_UiPath.with.Jai": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[1.0.4, 1.0.4]"
-          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
@@ -20016,7 +20010,7 @@
             "version": "[25.10.3, 25.10.3]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\playc\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
@@ -20024,17 +20018,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package ACME_Login_UiPath.with.Jai. No packages exist with this id in source(s): C:\\Users\\playc\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages, https://api.nuget.org/v3/index.json, https://cloud.uipath.com/nfr_redesign/NFR/orchestrator_/nuget/v3/3595c65e-b914-40db-9df0-5245bc5eb69e/index.json, https://gallery.uipath.com/api/v3/index.json, https://pkgs.dev.azure.com/uipath/Public.Feeds/_packaging/UiPath-Official/nuget/v3/index.json, https://pkgs.dev.azure.com/uipath/Public.Feeds/_packaging/UiPath-Official/nuget/v3/index.json",
-      "libraryId": "ACME_Login_UiPath.with.Jai",
-      "targetGraphs": [
-        "net8.0-windows7.0",
-        "net8.0-windows7.0/win-x64"
-      ]
-    }
-  ]
+  }
 }
