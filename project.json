@@ -1,6 +1,5 @@
 {
   "name": "REF-GenerateYearlyReports-Performer",
-  "projectId": "4b349f55-c3df-4a80-a1fe-a6e0c3e46c7f",
   "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
   "dependencies": {
